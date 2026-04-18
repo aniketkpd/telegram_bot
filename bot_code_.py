@@ -1,8 +1,8 @@
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
-
+token = "your token"
 # Replace with your bot token
-application = Application.builder().token('7577675216:AAFVwwEZ6JJqT97gVOSpFiB_MfF8C3Wosuc').build()
+application = Application.builder().token(token).build()
 
 # Function to handle the "/start" command
 text = '''
